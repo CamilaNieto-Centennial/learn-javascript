@@ -1,0 +1,1 @@
+document.getElementById("count-el").innerText = 5; // Change the value of that element to 5

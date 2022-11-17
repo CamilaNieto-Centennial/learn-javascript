@@ -1,4 +1,4 @@
-let countEl = document.getElementById("count-el")
+let countEl = document.getElementById("count-el") // DOM (Document Object Model): How you use JavaScript to modify a website
 let count = 0
 
 function increment() {

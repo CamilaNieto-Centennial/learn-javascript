@@ -14,3 +14,6 @@ function save() {
 
 // Google:
 // innerText alternative mdn
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+
+// Change .innerText to .textContent
