@@ -1,7 +1,17 @@
 /* Complete the CSS styling according to the provided design */
 
 body {
+    font-family: 'Trebuchet MS';
+    background-image: url('./images/table.png');
     
+    /* Styles for text */
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+    /* Scale the image nicely */
+    background-size: cover;
 }
 
 h1 {
@@ -9,5 +19,5 @@ h1 {
 }
 
 #message-el {
-    
+    font-style: italic;
 }
