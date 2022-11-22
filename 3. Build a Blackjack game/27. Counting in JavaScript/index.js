@@ -12,3 +12,17 @@ for ( let count = 1;  count < 11;  count += 1 )  {
     console.log(count)
 
 }
+
+// Count from 1-20
+for ( let count = 1;  count < 21;  count += 1 )  {
+    
+    console.log(count)
+
+}
+
+// Count from 10-20
+for ( let count = 10;  count < 21;  count += 1 )  {
+    
+    console.log(count)
+
+}

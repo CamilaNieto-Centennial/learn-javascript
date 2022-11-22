@@ -12,5 +12,13 @@ let messages = [
 // console.log(messages[2])
 // console.log(messages[3])
 
+//Not Dynamic
+for (let i=0; i < 5; i += 1) { 
+    console.log(messages[i]);
+}
 
+//Dynamic
+for (let i=0; i < messages.length; i += 1) { 
+    console.log(messages[i]);
+}
 
