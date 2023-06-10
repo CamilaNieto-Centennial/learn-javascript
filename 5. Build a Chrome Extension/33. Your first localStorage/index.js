@@ -12,6 +12,10 @@ const ulEl = document.getElementById("ul-el")
 // localStorage.getItem(key)
 // localStorage.clear()
 // PS: both key and value need to be strings
+localStorage.setItem("myItems", "Item 1");
+// console.log( localStorage.getItem("myItems") );
+localStorage.clear();
+console.log( localStorage.getItem("myItems") );
 
 
 inputBtn.addEventListener("click", function() {
