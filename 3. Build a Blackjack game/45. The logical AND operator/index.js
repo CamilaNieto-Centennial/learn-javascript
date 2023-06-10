@@ -1,10 +1,9 @@
-let hasCompletedCourse = false
+let hasCompletedCourse = true
 let givesCertificate = true
 
-if (hasCompletedCourse === true) {
-    if (givesCertificate === true) {
-        generateCertificate()
-    }
+// & --> Logical Operator (AND). If both conditions are true (in this case)
+if (hasCompletedCourse === true && givesCertificate === true) {
+    generateCertificate()
 }
 
 function generateCertificate() {
